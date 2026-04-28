@@ -1,0 +1,112 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* ── Form Box ── */
+form {
+  background-color: #ffffff;
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ── Title ── */
+h1 {
+  color: #333;
+}
+
+/* ── Fieldset ── */
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #4a90e2;
+  padding: 0 8px;
+}
+
+/* ── Label ── */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* ── Input, Select, Textarea ── */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="tel"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* ── Focus Effect ── */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color:#4a90e2;
+  outline: none;
+}
+
+/* ── Radio Button ── */
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* ── Checkbox ── */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+/* ── Submit Button ── */
+input[type="submit"] {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+/* ── Reset Button ── */
+input[type="reset"] {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+  background-color: #c0392b;
+}
